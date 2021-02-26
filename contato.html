@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> ART FER SERRAHERIA-FALE CONOSCO</title>
+	<meta charset="utf-8"/>
+	<link rel="stylesheet" type="text/css" href="CSS.css">
+</head>
+<body>
+	<form method="post" id="fContato" action="joseart123@gmail.com">
+		<fieldset id="usuario"> <legend>IDENTIFICAÇÃO DO USUARIO</legend>
+			<p>NOME COMPLETO:<input type="text" name="tNome" id="cNome" size="20" maxlength="80" placeholder="NOME COMPLETO"/></p>
+			<p>DATA DE NASCIMENTO:<input type="date" name="tData" id="cData"/>
+			<p>TELEFONE:<input type="text" name="tTel" id="cTel" size="11" maxlength="11" placeholder="TELEFONE"/></p>
+			<p>E-MAIL:<input type="email" name="tEmail" id="cEmail" size="30" maxlength="100" placeholder="E-MAIL"></p>
+			<p><label for="cRua">LOGRADOURO</label><input type="text" name="tRua" id="cRua" size="30" maxlength="100" placeholder="NOME DA RUA"/></p>
+			<p><label for="cNum">NUMERO</label><input type="number" name="tNum" id="cnum" size="6" maxlength="6" placeholder="NUMERO"/></p>
+			<p><label for="cEst">ESTADO</label><select name="tEst" id="cEst">
+				<option value="SP" selected>SÃO PAULO</option>
+			</select></p>
+			<p><label for="cCid">CIDADE</label><select name="tCid" id="cCid">
+				<option selected>ARARAQUARA</option>
+				<option>AMERICO BRASILIENSE</option>
+				<option>MATAO</option>
+				<option>SAO CARLOS</option>
+				<option>RINCAO</option>
+				<option>SANTA LUCIA</option>
+			 </select></p>
+			<p><label for="cMsg">MENSAGEM DO USUARIO:</label><textarea name="tMsg" id="cMsg" cols="45" rows="8" placeholder="DEIXE AQUI SUA MENSAGEM"></textarea></p>
+			<p><label for="cUrg">GRAU DE URGENCIA</label>Min<input type="range" name="tUrg" id="cUrg" min="0" max="10"/>Máx</p>
+			<input id="botao" type="submit" value="ENVIAR"/>
+		</fieldset>
+	</form>
+	<p><a href="https://api.whatsapp.com/send?phone=5516997401780" target="blank">Whatsapp</a></p>
+	<footer id="rodape">
+		<p>copyrght &copy; 2021- by Thamara Fogolari </p>
+	</footer>
+</body>
+</html>

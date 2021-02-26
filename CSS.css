@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<meta charset="utf-8">
+		<style>
+			h1 {
+				text-align:center;
+				font-family: arial;
+				font-size: 30pt;
+				color:orange;
+			}
+			h2 {
+				text-align: center;
+				font-family: arial
+				font-size: 20pt;
+				color:rgba(255,255,255,0.5);
+			}
+			h3 {
+				text-align: center;
+				font-family: arial
+				font-size: 10pt;
+				color:rgba(255,255,255,0.5);
+			}
+			body {
+				background-color: rgb(0,0,0);
+			}
+			p {
+				text-indent: 50px;
+				text-align: center;
+				font-family: arial
+				font-size: 30px;
+				color:rgba(255,255,255,0.5);
+			}
+			figure.SERRALHERIA {
+				border-image: 8px solid black
+				width: 100%;
+				height: 100%
+				box-shadow: 1px 1px 3px black;
+				position: relative;
+			}
+			figure.SERRALHERIA img {
+				width: 100%
+				height:100%	
+				margin: auto auto auto auto;
+			}
+			figure.SERRALHERIA figcaption {
+				opacity: 0;
+				position: absolute;
+				top: 1px
+				background-color: rgba(0,0,0,0.4);
+				height: 100%
+				width: 100%
+				color: white;
+				padding: 10px;
+				box-sizing: border-box;
+			}
+			figure.SERRALHERIA:hover figcaption {
+				opacity: 1;
+				transition: opacity 1s;
+			}
+			nav#menu {
+				display: block;
+			}
+			nav#menu ul {
+				list-style: none;
+				color:rgba(255,255,255,0.5);
+				text-transform: uppercase;	
+				position: absolute;
+				top: 10px;
+				left: 1000px;
+			}
+			nav#menu li {
+				display: inline-block;
+				background-color: none;
+				padding: 10px;
+				margin: 2px;
+			}
+			nav#menu h1 {
+				display: none;
+			}
+			nav#menu li:hover {
+				background-color: orange;
+			}
+			nav#menu a {
+				text-decoration: none;
+				color: rgba(255,255,255,0.5);
+			}
+			nav#menu a:hover {
+				color: white;
+				text-decoration: underline;
+			}
+			div#interface {
+				width: 800px;
+				margin: -20px auto 10px auto;
+				padding: 10px;
+			}
+			header#cabeçalho {
+				border: 10px rgba(255,255,255,0.5) solid;
+			}
+			section#corpo {
+				display: block;
+				float: center;
+			}
+			footer#rodape {
+				border-top: 1px rgba(255,255,255,0.5) solid;
+			}
+			footer#rodape p {
+				text-align: center;
+				color: rgba(255,255,255,0.5);
+			}
+			form#usuario {
+				background-color: rgb(0,0,0);
+				color: rgba(255,255,255,0.5);
+				width: 500PX;
+				margin: auto;
+			}
+			input, textarea {
+				font-family: sans-serif;
+				font-weight: normal;
+				font-size: 15px;
+			}
+			input:hover, textarea {
+				background-color: silver;
+			}
+			legend {
+				color: rgba(255,255,255,0.5);
+				font-weight: bold;
+				font-size: 15px;
+				font-family: sans-serif;
+				text-align: center;
+			}
+			fieldset {
+				margin: 20px;
+			} 
+			input#botao {
+				text-align: center;
+			}
+		</style>
+	</head>
+	</html>
